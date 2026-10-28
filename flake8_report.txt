@@ -1,0 +1,14 @@
+Flake8 report — L5_37_todo_manager
+===================================
+
+STATUS: NOT RUN in the environment that prepared this repository update.
+
+This file is an explicit placeholder, not genuine Flake8 output. Flake8 was not installed and could not be installed in that environment because package-network access was unavailable. No claim of zero style violations is made.
+
+To generate the real report from the repository root, run:
+  python -m pip install flake8
+  python -m flake8 todo_manager.py > flake8_report.txt
+
+Then replace this placeholder with the generated output and commit the updated file.
+
+Note: Flake8 normally prints only detected violations; an empty output file after a successful run means no violations were reported by that invocation. An empty file should not be used to imply a scan was run unless it actually was.
