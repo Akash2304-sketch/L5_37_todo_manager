@@ -1,0 +1,15 @@
+Pylint report — L5_37_todo_manager
+====================================
+
+STATUS: NOT RUN in the environment that prepared this repository update.
+
+This file is an explicit placeholder, not genuine Pylint output. Pylint was not installed and could not be installed in that environment because package-network access was unavailable. No score or findings are claimed.
+
+To generate the real report from the repository root, run:
+  python -m pip install pylint
+  python -m pylint todo_manager.py > pylint_report.txt
+
+Then replace this placeholder with the generated output and commit the updated file.
+
+Reviewed source: todo_manager.py
+Manual review notes: the file includes docstrings, type annotations, snake_case names, and a guarded main entry point. These observations are not a substitute for Pylint's actual results.
