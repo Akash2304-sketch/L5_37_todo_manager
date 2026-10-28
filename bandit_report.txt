@@ -1,0 +1,14 @@
+Bandit security report — L5_37_todo_manager
+============================================
+
+STATUS: NOT RUN in the environment that prepared this repository update.
+
+This file is an explicit placeholder, not genuine Bandit output. Bandit was not installed and could not be installed in that environment because package-network access was unavailable. No clean scan or security score is claimed.
+
+To generate the real report from the repository root, run:
+  python -m pip install bandit
+  python -m bandit -r todo_manager.py > bandit_report.txt
+
+Then replace this placeholder with the generated output and commit the updated file.
+
+Manual review notes: task persistence uses JSON rather than pickle, and the mail command is invoked with subprocess.run using an argument list without shell=True. These code observations do not replace a Bandit scan.
